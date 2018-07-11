@@ -1,0 +1,31 @@
+2018-07-11 16:52:14,729- run.py(13)- INFO- ***************INIT DATABASE***************
+2018-07-11 16:52:14,729- testdata.py(85)- INFO- Clear database from xml:CaseDatabase.xml
+2018-07-11 16:52:14,788- mysql.py(42)- INFO- Connect database:hive_new_copy
+2018-07-11 16:52:14,805- mysql.py(56)- INFO- Execute sql:DELETE FROM new_qiyi_user_vip_copy
+2018-07-11 16:52:14,807- mysql.py(98)- INFO- Disconnect database:hive_new_copy
+2018-07-11 16:52:14,807- testdata.py(41)- INFO- Init database from xml:CaseDatabase.xml
+2018-07-11 16:52:14,831- mysql.py(42)- INFO- Connect database:hive_new_copy
+2018-07-11 16:52:14,832- testdata.py(26)- INFO- Read test data from excel:test_browser.xlsx
+2018-07-11 16:52:15,830- myexcel.py(21)- INFO- Read exel:test_browser.xlsx
+2018-07-11 16:52:15,834- mysql.py(98)- INFO- Disconnect database:hive_new_copy
+2018-07-11 16:52:15,834- run.py(17)- INFO- ***************TEST START***************
+2018-07-11 16:52:15,834- testsuite.py(29)- INFO- Get test case list from txt:caselist.txt
+2018-07-11 16:52:15,834- testsuite.py(53)- INFO- Run test case.
+2018-07-11 16:52:15,835- testsuite.py(40)- INFO- Set test suite.
+2018-07-11 16:52:15,950- testdata.py(26)- INFO- Read test data from excel:test_browser.xlsx
+2018-07-11 16:52:15,962- myexcel.py(21)- INFO- Read exel:test_browser.xlsx
+2018-07-11 16:52:31,938- test_browser.py(43)- INFO- Run test case:test_visit_url_0_访问百度
+2018-07-11 16:52:31,938- test_browser.py(48)- INFO- * 跳过欢迎页
+2018-07-11 16:52:35,409- test_browser.py(52)- INFO- * 访问网址:https://www.baidu.com
+2018-07-11 16:52:52,597- test_browser.py(57)- INFO- * 拒绝位置共享
+2018-07-11 16:52:58,302- test_browser.py(62)- INFO- * 页面截图:test_visit_url_0_访问百度.png
+2018-07-11 16:53:01,894- test_browser.py(68)- INFO- * 期望url_title:百度一下,实际url_title:百度一下。
+2018-07-11 16:53:24,424- test_browser.py(43)- INFO- Run test case:test_visit_url_1_访问大众点评
+2018-07-11 16:53:24,424- test_browser.py(48)- INFO- * 跳过欢迎页
+2018-07-11 16:53:27,650- test_browser.py(52)- INFO- * 访问网址:https://m.dianping.com
+2018-07-11 16:53:44,490- test_browser.py(57)- INFO- * 拒绝位置共享
+2018-07-11 16:53:48,161- test_browser.py(62)- INFO- * 页面截图:test_visit_url_1_访问大众点评.png
+2018-07-11 16:53:51,629- test_browser.py(68)- INFO- * 期望url_title:大众点评网,实际url_title:北京美食,北京餐厅餐饮,北京团购,北京生活,优惠券-大众点评网。
+2018-07-11 16:53:57,556- testsuite.py(67)- INFO- Generate test report:TestResult 2018-07-11 16_52_16.html
+2018-07-11 16:53:57,558- run.py(21)- INFO- ***************SEND REPORT***************
+2018-07-11 16:53:57,950- myemail.py(83)- INFO- Send test report email:TestResult 2018-07-11 16_52_16.html
