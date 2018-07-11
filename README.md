@@ -1,4 +1,4 @@
-# Web自动化测试框架
+# App自动化测试框架
 
 第一个手搭python+unittest+appium的App自动化测试框架，实现PageObject模型，很多地方存在不足，请多指教，后续持续优化。
 
